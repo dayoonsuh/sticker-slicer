@@ -7,7 +7,7 @@ Here is the code for extracting each sticker from sticker collection!
 
 ## How to Use
 
-1. Put your sticker collection images under `sticker_images` file
+1. Put your sticker collection images under `sticker_images` folder
 
 2. Run `slicer.py`
 
