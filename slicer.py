@@ -2,7 +2,7 @@ import cv2
 import os
 import numpy as np
 
-stickerfolder = 'stickerimages'
+stickerfolder = 'sticker_images'
 output_dir = 'cropped_stickers'
 os.makedirs(output_dir, exist_ok=True)
 
@@ -41,7 +41,7 @@ for item in images:
 
             image_with_alpha = cv2.merge((cropped_sticker[:, :, 0], cropped_sticker[:, :, 1], cropped_sticker[:, :, 2], alpha_channel))
 
-            cv2.imwrite(f"{output_sticker_dir}/sticker_{sticker_count}.png", image_with_alpha)
+            cv2.imwrite(f"{output_sticker_dir}/{sticker_count}.png", image_with_alpha)
             sticker_count += 1
 
     print(f"Extracted {sticker_count-1} stickers. Saved in: {output_sticker_dir}")
