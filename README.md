@@ -1,7 +1,7 @@
 # sticker-slicer
 #### Tired of cropping images everytime you want to insert a sticker?
 Here is the code for extracting each sticker from sticker collection!
-![image](https://github.com/user-attachments/assets/7e0d5736-3b5f-4e7d-8721-fb80ae613f54)
+![image](https://github.com/user-attachments/assets/381d48c1-58c8-4c27-8fea-dae96493ee94)
 
 ## Dependencies
 ```
